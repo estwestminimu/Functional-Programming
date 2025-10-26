@@ -7,8 +7,6 @@
 
 :white_check_mark: 3.0 Zaimplementuj funkcję isSorted, która sprawdza czy dana funkcja jest posortowana zgodnie z podaną funkcją porównawczą [Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
-![is_sorted](./videos/zestaw_1/is_sorted.mp4)
-
 
 :white_check_mark: 3.5 Zaimplementuj funkcję, która zsumuje liczby po wierszach z trzech list na wejściu; wykorzystaj funkcję sprowadzi funkcję z trzema argumentami, do funkcji z dwoma [Link do commita2 ](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
@@ -26,7 +24,7 @@ https://github.com/estwestminimu/Functional-Programming/tree/main/videos
 
 
 
-**Zadanie 1** Docker
+**Zadanie 2** Ubuntu LTS
 
 Stwórz obraz dockerowy, który bazuje na najnowszej wersji Ubuntu LTS
 oraz który zawiera paczki:
@@ -37,7 +35,8 @@ oraz który zawiera paczki:
 - :white_check_mark: vim
 
 #### Rozwiązanie: 
-dockerhub:
-https://hub.docker.com/r/estwestminimu/ubuntu_24_lts-java_8-python_3-scala-sbt-vim 
+Kod: [Link do  dockerhub](https://hub.docker.com/r/estwestminimu/ubuntu_24_lts-java_8-python_3-scala-sbt-vim )
+
+
 <br>
 config: [github](./zadanie2/Dockerfile)
