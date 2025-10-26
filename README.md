@@ -7,12 +7,21 @@
 
 :white_check_mark: 3.0 Zaimplementuj funkcję isSorted, która sprawdza czy dana funkcja jest posortowana zgodnie z podaną funkcją porównawczą [Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
+https://github.com/user-attachments/assets/28b86da8-a0c0-43cb-b3a1-cb217fad462f
+
 
 :white_check_mark: 3.5 Zaimplementuj funkcję, która zsumuje liczby po wierszach z trzech list na wejściu; wykorzystaj funkcję sprowadzi funkcję z trzema argumentami, do funkcji z dwoma [Link do commita2 ](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
+https://github.com/user-attachments/assets/efe88d80-5c28-47dd-87e2-039139b6aa23
+
 :white_check_mark: 4.0 Zaimplementuj funkcję setHead, która doda element na początku listy [Link do commita 3](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
+https://github.com/user-attachments/assets/1fb9acc2-dd72-41f0-a957-d0f105ccaab1
+
+
 :white_check_mark:4.5 Zaimplementuj funkcję append, która doda element we wskazanym miejscu w liście [Link do commita 4](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
+
+https://github.com/user-attachments/assets/df15d334-848b-497b-bb47-38c0c8ad2299
 
 :x: 5.0 Zaimplementuj funkcję, która policzy kwadrat liczb z dwóch list (po wierszach) za pomocą funkcji map oraz funkcji anonimowej [Link do commita 5](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
