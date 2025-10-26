@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/szymon/github/fun/example/target/scala-3.7.3/example_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	app[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/szymon/github/fun/example/target/scala-3.7.3/classes/app[0m
+[0m[[0m[0mdebug[0m] [0m[0m	app/FormJsonPost$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/szymon/github/fun/example/target/scala-3.7.3/classes/app/FormJsonPost$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	app/FormJsonPost.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/szymon/github/fun/example/target/scala-3.7.3/classes/app/FormJsonPost.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	app/FormJsonPost.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/szymon/github/fun/example/target/scala-3.7.3/classes/app/FormJsonPost.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
