@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/df15d334-848b-497b-bb47-38c0c8ad2299
 :x: 5.0 Zaimplementuj funkcję, która policzy kwadrat liczb z dwóch list (po wierszach) za pomocą funkcji map oraz funkcji anonimowej [Link do commita 5](https://github.com/estwestminimu/Functional-Programming/commit/6fc70f0915436684e0bb97d19b2e9bc864bf66d9)
 
 
-Kod: [Link do zadania 1](https://hub.docker.com/r/estwestminimu/ubuntu_24_lts-java_8-python_3-scala-sbt-vim )
+Kod: [Link do zadania 1](./example/src/main/scala/Example.scala )
 
 
 https://github.com/estwestminimu/Functional-Programming/tree/main/videos
