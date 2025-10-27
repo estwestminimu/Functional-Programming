@@ -34,6 +34,18 @@ ujson.Obj(
 }
 
 
+@cask.postJson("/sum")
+def jsonEndpoint(value1:Seq[Int], value2: Seq[Int], value3: Seq[Int]) = {
+
+    def sum: (Seq[Int], Seq[Int]) => Seq[Int] = (a,b)=>a.zip(b).map {case (x,y)=>x+y}
+
+
+    val odp = sum(value1, sum(value2,value3))
+    ujson.Obj(
+    "sum" -> odp
+)
+
+}
 
 
 
