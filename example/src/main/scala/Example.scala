@@ -48,10 +48,17 @@ def jsonEndpoint(value1:Seq[Int], value2: Seq[Int], value3: Seq[Int]) = {
 }
 
 
+@cask.postJson("/setHead")
+def jsonEndpoint(element1:ujson.Value, value2: Seq[ujson.Value]) = {
+    val odp = element1 +: value2
+    ujson.Obj(
+    "sum" -> odp
+)
+}
 
 
 
-
+    
 
   initialize()
 }
