@@ -45,3 +45,6 @@ oraz który zawiera paczki:
 
 #### Rozwiązanie: 
 Kod: [Link do  dockerhub](https://hub.docker.com/r/estwestminimu/ubuntu_24_lts-java_8-python_3-scala-sbt-vim )
+
+
+https://github.com/user-attachments/assets/11aec74d-fd79-4f7f-9204-53c7e296445e
