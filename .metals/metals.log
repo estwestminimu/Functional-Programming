@@ -1,0 +1,74 @@
+2025.10.26 14:32:35 INFO  Started: Metals version 1.6.3 in folders '/home/szymon/github/fun' for client Visual Studio Code 1.105.0.
+2025.10.26 14:32:35 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.10.26 14:32:36 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.26 14:32:38 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+paź 26, 2025 2:32:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+paź 26, 2025 2:32:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+paź 26, 2025 2:32:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.10.26 14:32:38 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.26 14:32:38 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.26 14:32:38 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.26 14:32:38 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+paź 26, 2025 2:32:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2025.10.26 14:32:38 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.26 14:35:01 INFO  Shutting down server
+2025.10.26 14:35:01 INFO  shutting down Metals
+2025.10.26 14:35:01 INFO  Exiting server
+2025.10.26 17:34:56 INFO  Started: Metals version 1.6.3 in folders '/home/szymon/github/fun' for client Visual Studio Code 1.105.0.
+2025.10.27 08:34:54 INFO  Started: Metals version 1.6.3 in folders '/home/szymon/github/fun' for client Visual Studio Code 1.105.0.
+2025.10.27 08:34:55 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.10.27 08:37:13 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:17 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+paź 27, 2025 8:37:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.10.27 08:37:17 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:20 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:20 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:23 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:25 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:25 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:27 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:29 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:29 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:32 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 WARN  no build target for: /home/szymon/github/fun/example/src/main/scala/Example.scala
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:41 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:43 INFO  no build target found for /home/szymon/github/fun/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:46 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:48 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:49 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:50 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:51 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:53 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:55 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:55 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:58 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:58 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:37:59 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:01 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:01 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:01 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:02 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:04 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:07 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:07 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:09 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:11 WARN  no build target for: /home/szymon/github/fun/example/src/main/scala/Example.scala
+2025.10.27 08:38:11 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:11 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:38:24 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:39:07 WARN  no build target for: /home/szymon/github/fun/example/src/main/scala/Example.scala
+2025.10.27 08:39:07 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:40:45 WARN  no build target for: /home/szymon/github/fun/example/src/main/scala/Example.scala
+2025.10.27 08:40:45 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.27 08:40:46 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6

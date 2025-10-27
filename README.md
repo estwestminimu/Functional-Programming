@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/df15d334-848b-497b-bb47-38c0c8ad2299
 Kod: [Link do zadania 1](./example/src/main/scala/Example.scala )
 
 
-https://github.com/estwestminimu/Functional-Programming/tree/main/videos
+
 
 
 
