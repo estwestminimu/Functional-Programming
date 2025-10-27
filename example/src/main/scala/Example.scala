@@ -56,9 +56,18 @@ def jsonEndpoint(element1:ujson.Value, value2: Seq[ujson.Value]) = {
 )
 }
 
+@cask.postJson("/append")
+def jsonEndpoint(position:Int, value2:ujson.Value, list3: Seq[ujson.Value]) = {
+    val odp =  list3.patch(position, Seq(value2), 0)
+
+        ujson.Obj(
+    "append" -> odp
+)
+
+}
 
 
-    
+
 
   initialize()
 }
