@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y openjdk-8-jdk
 #error missing package fix
 RUN apt-get install -y libjansi-java
 RUN apt-get install -y scala
-RUN apt-get install -y nano
+
 
 #sbt
 RUN  apt-get update

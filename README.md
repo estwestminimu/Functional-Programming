@@ -32,7 +32,7 @@ Kod: [Link do zadania 1](./example/src/main/scala/Example.scala )
 
 
 
-
+***
 **Zadanie 2** Ubuntu LTS
 
 Stwórz obraz dockerowy, który bazuje na najnowszej wersji Ubuntu LTS
@@ -48,3 +48,28 @@ Kod: [Link do  dockerhub](https://hub.docker.com/r/estwestminimu/ubuntu_24_lts-j
 
 
 https://github.com/user-attachments/assets/11aec74d-fd79-4f7f-9204-53c7e296445e
+
+
+***
+**Zadanie 3** Struktury danych 
+
+:white_check_mark:  3.0 zwrócą wynik funkcji tail, która usuwa pierwszy element z listy
+(parameter); należy rozważyć przypadek Nil jako parametr 
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/37150e4a06f649e3a7d4a2d0a84fe9d042ac26fd)
+
+https://github.com/user-attachments/assets/28b86da8-a0c0-43cb-b3a1-cb217fad462f
+
+
+:x:  3.5 zwróci wynik funkcji drop, która usuwa n elementów z listy
+dwukierunkowej
+
+:x:  4.0 zwróci wynik funkcji dropWhile, która usuwa n elementów z listy
+dwukierunkowej, które spełniają warunek funkcji (parametr); należy
+wykorzystać podejście pattern match
+
+:x:  4.5 zwróci wynik funkcji foldLeft wykorzystując do tego companion
+object
+
+
+:x: 5.0 zwróci wynik funkcji concatenate na dwóch listach (parametry),
+która zwraca jedną listę

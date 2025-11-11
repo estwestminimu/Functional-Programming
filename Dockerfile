@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN sbt update
+#RUN sbt update
 
 CMD ["sbt", "example/run"]

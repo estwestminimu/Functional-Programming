@@ -67,6 +67,79 @@ def jsonEndpoint(position:Int, value2:ujson.Value, list3: Seq[ujson.Value]) = {
 }
 
 
+/*
+check Implementacja listy
+tail - usuwanie pierwszego elementu lsisty
+NIll jako parametrz
+
+cask wiec robimy przerzucenie typu an seq i z seq na wynik bo trzeba zwrocic json a sosujemy ujson?
+*/
+
+//szablonik
+sealed trait LinkedNode[+A]
+{
+  def tail: LinkedNode[A];
+}
+
+//istnieje
+case class Node[A](ele: A, next: LinkedNode[A]) extends LinkedNode[A]
+{
+  def tail: LinkedNode[A]=next;
+
+}
+
+case object EmptyNode extends LinkedNode[Nothing]
+{
+  def tail: LinkedNode[Nothing]=EmptyNode;
+
+}
+
+object LinkedNode
+{
+
+  def fromInput[A](seq: Seq[A]): LinkedNode[A] = 
+  {
+    if (seq.isEmpty)
+      {
+        EmptyNode;
+      }
+      else
+      {
+          Node(seq.head, fromInput(seq.tail));
+      }
+  }
+
+
+
+  def toInput[A](list: LinkedNode[A]): Seq[A] = 
+    (
+      Seq.unfold(list)
+      {
+        case EmptyNode => None
+        case Node(ele, next) => Some((ele, next))
+      }
+    )
+
+
+}
+
+
+
+@cask.postJson("/tail")
+def jsonEndpoint(list: Seq[ujson.Value]) = {
+  val mylist =  LinkedNode.fromInput(list)
+
+
+        ujson.Obj(
+    "tail" -> LinkedNode.toInput(mylist.tail)
+)
+
+
+}
+
+
+
+
 
 
   initialize()
