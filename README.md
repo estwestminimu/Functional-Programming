@@ -72,3 +72,6 @@ object
 
 :x: 5.0 zwróci wynik funkcji concatenate na dwóch listach (parametry),
 która zwraca jedną listę
+
+
+Kod: [Link do zadania 1](./example/src/main/scala/Example.scala)
