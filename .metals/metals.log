@@ -5655,3 +5655,4 @@ Exception in thread "pool-7-thread-1" java.lang.InterruptedException
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 2025.11.11 15:38:32 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.11 15:42:12 INFO  no build target found for /home/szymon/github/fun/example/src/main/scala/Example.scala. Using presentation compiler with project's scala-library version: 3.3.6

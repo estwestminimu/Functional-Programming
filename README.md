@@ -55,10 +55,9 @@ https://github.com/user-attachments/assets/11aec74d-fd79-4f7f-9204-53c7e296445e
 
 :white_check_mark:  3.0 zwrócą wynik funkcji tail, która usuwa pierwszy element z listy
 (parameter); należy rozważyć przypadek Nil jako parametr 
-[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/37150e4a06f649e3a7d4a2d0a84fe9d042ac26fd)
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/0e7eb31c84501ec27d2e410126116409b0879b67)
 
-https://github.com/user-attachments/assets/28b86da8-a0c0-43cb-b3a1-cb217fad462f
-
+https://github.com/user-attachments/assets/07c621f9-8c45-4b9b-9a4e-e543608d3364
 
 :x:  3.5 zwróci wynik funkcji drop, która usuwa n elementów z listy
 dwukierunkowej
