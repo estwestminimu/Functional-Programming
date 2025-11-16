@@ -100,3 +100,6 @@ https://github.com/user-attachments/assets/f33cb8f2-2f55-4900-9118-f58fe92c1c30
 :x: 4.5 zwróci listę za pomocą metody mojeMap[A,B,C](a: Option[A], b: Option[B])(f:(A,B)=>C):Option[C]; należy wykorzystać metodę flatMap oraz map
 
 :x: 5.0 zwróci taki średnią (mean) z listy zwracając Either
+
+
+Kod: [Link do zadania](./example/src/main/scala/Example.scala)
