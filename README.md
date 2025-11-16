@@ -75,3 +75,28 @@ która zwraca jedną listę
 
 
 Kod: [Link do zadania 1](./example/src/main/scala/Example.scala)
+
+
+
+
+***
+**Zadanie 4**  Typ opcjonalny
+
+Należy wykorzystać typ opcjonalny i rozszerzyć endpointy o endpoint,
+który:
+
+:white_check_mark:3.0 zwróci taki sam wynik jak zad.1 4.5 ale wykorzysta typ opcjonalny
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/8b0ba600e7c0c73934dc389baf346aed500bb295)
+
+https://github.com/user-attachments/assets/15728af6-32f1-46a3-8ca4-2d2d00cd561b
+
+:white_check_mark:3.5 zwroci wariancję z listy; do implementacji wykorzystać należy typ opcjonalny
+[Link do commita 2](https://github.com/estwestminimu/Functional-Programming/commit/8b0ba600e7c0c73934dc389baf346aed500bb295)
+
+https://github.com/user-attachments/assets/f33cb8f2-2f55-4900-9118-f58fe92c1c30
+
+:x: 4.0 zwróci listę (option), która jest wynikiem połączenia dwóch list (option); w przypadku gdy jedna z list jest None, funkcja powinna zwrócić None
+
+:x: 4.5 zwróci listę za pomocą metody mojeMap[A,B,C](a: Option[A], b: Option[B])(f:(A,B)=>C):Option[C]; należy wykorzystać metodę flatMap oraz map
+
+:x: 5.0 zwróci taki średnią (mean) z listy zwracając Either
