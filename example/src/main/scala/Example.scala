@@ -138,11 +138,74 @@ def jsonEndpoint(list: Seq[ujson.Value]) = {
 }
 
 
+/*4*/
+
+@cask.postJson("/append-option")
+def jsonEndpointOptional(position:Int, value:ujson.Value, list: Seq[ujson.Value]) = {
+   
+  append(position, value, list) match
+  {
+  case Some(result) =>ujson.Obj("append" -> result)
+  case None =>ujson.Obj("append" -> "error")
+  }
+
+
+
+}
+def append(position:Int, value:ujson.Value, list: Seq[ujson.Value]) : Option[Seq[ujson.Value]] =
+  {
+  if (position<0 || position > list.length)
+  {
+    None
+  }
+  else
+  {
+    Some(list.patch(position, Seq(value), 0))
+  }
+  }
 
 
 
 
-  initialize()
+@cask.postJson("/variance")
+def jsonVarianceOptional(list: Seq[ujson.Value]) = {
+   
+  variance(list) match
+  {
+  case Some(result) =>ujson.Obj("variance" -> result)
+  case None =>ujson.Obj("variance" -> "error")
+  }
+
+
+
+}
+
+
+def variance(list: Seq[ujson.Value]) : Option[Double] =
+  {
+  if (list.length<2)
+  {
+    None
+  }
+  else
+  {
+    //konwersja bo ujson nie obsluguje liczb
+    val numbers = list.map(_.num)
+
+    val average = numbers.sum/numbers.length;
+    val tobepower = numbers.map(_ - average)
+    // print(tobepower)
+    val power = tobepower.map(x => x*x )
+    // print(power)
+    val fin = power.sum/(numbers.length-1)
+    Some(fin)
+  }
+  }
+
+
+
+
+initialize()
 }
 
 
