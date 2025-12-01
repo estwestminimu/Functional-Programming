@@ -123,8 +123,11 @@ Należy rozszerzyć endpointy o endpoint, który:
 
 https://github.com/user-attachments/assets/17833eea-61b2-4843-b3d0-858d57a21949
 
-:x: 3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
+:white_check_mark: 3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
 funkcji mapreduce dla list z liczbami
+
+
+https://github.com/user-attachments/assets/ab5abcc6-8af2-47bc-9636-bbf9ce21b188
 
 :x: 4.0  zwróci słownik (student, godziny nauki), która wykorzysta funkcją
 mapreduce oraz groupBy dla słownika na wejściu

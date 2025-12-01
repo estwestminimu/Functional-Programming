@@ -235,6 +235,10 @@ class NumberCounter extends MapRed[List[Int], Int, Int, Int]
 
 
 
+@cask.postJson("/dic-number")
+def jsonDicNumber(list: Seq[ujson.Value]) = {
+ 
+
 def mapReduce(list: Seq[ujson.Value]): Map[Int, Int] = {
   val counter = new NumberCounter()
   // //json na liste int 
@@ -262,8 +266,72 @@ def mapReduce(list: Seq[ujson.Value]): Map[Int, Int] = {
 }
 
 
-@cask.postJson("/dic-number")
-def jsonDicNumber(list: Seq[ujson.Value]) = {
+
+
+
+    ujson.Obj.from(
+      mapReduce(list).map {
+        case (key, value) => 
+        key.toString -> ujson.Num(value)
+    }
+)
+
+}
+
+
+// zadanie 3.5
+
+class NumberPowerOfThree extends MapRed[List[Int], Int, Int, Int] 
+{ 
+  override def mapper(input: List[Int]): Seq[KeyValue[Int, Int]] = { 
+    input.map(x => KeyValue(x, x*x*x)) 
+  }
+
+  override def reducer(key: Int, values: Seq[Int]): KeyValue[Int, Int] = {
+     KeyValue(key, values.head) 
+  } 
+} 
+  
+
+
+
+
+@cask.postJson("/dic-power")
+def jsonDicPower(list: Seq[ujson.Value]) = {
+ 
+
+
+def mapReduce(list: Seq[ujson.Value]): Map[Int, Int] = {
+  val counter = new NumberPowerOfThree()
+  // //json na liste int 
+  // val numbers = list.map(_.num.toInt).toList
+
+  // //tworzymy kucze
+  // val mapped = counter.mapper(numbers)
+
+  // //grupujemy wedlug kluczka
+  // val grouped = mapped.groupBy(_.key)
+
+  val tmp =counter.mapper(list.map(_.num.toInt).toList).groupBy(_.key)
+
+
+  val reduced: Map[Int, Int] = {
+    tmp.map { 
+      case (key, valu) =>
+      val data = valu.map(_.value)
+      val result = counter.reducer(key, data)
+      (key, result.value)
+    }
+  }
+
+  reduced
+}
+
+
+
+
+
+
  
     ujson.Obj.from(
       mapReduce(list).map {
@@ -273,6 +341,9 @@ def jsonDicNumber(list: Seq[ujson.Value]) = {
 )
 
 }
+
+
+
 
 
 initialize()
