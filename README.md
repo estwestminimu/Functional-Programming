@@ -117,14 +117,23 @@ Kod: [Link do zadania](./example/src/main/scala/Example.scala)
 
 
 Należy rozszerzyć endpointy o endpoint, który:
-3.0 zwróci słownik z liczbą powtarzających się liczb za pomocą funkcji
-mapreduce dla list z liczbami
-3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
+
+:white_check_mark: 3.0 zwróci słownik z liczbą powtarzających się liczb za pomocą funkcji mapreduce dla list z liczbami
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/9fd1da182d6d4bb01423dd381b0ee961f1a8b473)
+
+https://github.com/user-attachments/assets/17833eea-61b2-4843-b3d0-858d57a21949
+
+:x: 3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
 funkcji mapreduce dla list z liczbami
-4.0  zwróci słownik (student, godziny nauki), która wykorzysta funkcją
+
+:x: 4.0  zwróci słownik (student, godziny nauki), która wykorzysta funkcją
 mapreduce oraz groupBy dla słownika na wejściu
-4.5 zwróci słownik (zdanie, wektor), która wykorzysta funkcję
+
+:x: 4.5 zwróci słownik (zdanie, wektor), która wykorzysta funkcję
 mapreduce oraz bagOfWords
-5.0 zwróci słownik (student, średnia ocen), która wykorzysta funkcję
+
+:x: 5.0 zwróci słownik (student, średnia ocen), która wykorzysta funkcję
 mapreduce oraz join; na wejściu  są dwie listy: (numer_indeksu,
 student), (numer_indeksu, kurs, ocena)
+
+Kod: [Link do zadania](./example/src/main/scala/Example.scala)
