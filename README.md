@@ -125,12 +125,16 @@ https://github.com/user-attachments/assets/17833eea-61b2-4843-b3d0-858d57a21949
 
 :white_check_mark: 3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
 funkcji mapreduce dla list z liczbami
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/c1a22b1ed4f6274ae063e53ea603596202e59136)
 
 
 https://github.com/user-attachments/assets/ab5abcc6-8af2-47bc-9636-bbf9ce21b188
 
 :x: 4.0  zwróci słownik (student, godziny nauki), która wykorzysta funkcją
 mapreduce oraz groupBy dla słownika na wejściu
+
+
+
 
 :x: 4.5 zwróci słownik (zdanie, wektor), która wykorzysta funkcję
 mapreduce oraz bagOfWords
