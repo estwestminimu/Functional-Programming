@@ -103,3 +103,28 @@ https://github.com/user-attachments/assets/f33cb8f2-2f55-4900-9118-f58fe92c1c30
 
 
 Kod: [Link do zadania](./example/src/main/scala/Example.scala)
+
+
+
+
+
+
+
+
+
+***
+**Zadanie 5**
+
+
+Należy rozszerzyć endpointy o endpoint, który:
+3.0 zwróci słownik z liczbą powtarzających się liczb za pomocą funkcji
+mapreduce dla list z liczbami
+3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
+funkcji mapreduce dla list z liczbami
+4.0  zwróci słownik (student, godziny nauki), która wykorzysta funkcją
+mapreduce oraz groupBy dla słownika na wejściu
+4.5 zwróci słownik (zdanie, wektor), która wykorzysta funkcję
+mapreduce oraz bagOfWords
+5.0 zwróci słownik (student, średnia ocen), która wykorzysta funkcję
+mapreduce oraz join; na wejściu  są dwie listy: (numer_indeksu,
+student), (numer_indeksu, kurs, ocena)

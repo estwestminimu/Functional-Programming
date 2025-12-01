@@ -189,20 +189,90 @@ def variance(list: Seq[ujson.Value]) : Option[Double] =
   }
   else
   {
-    //konwersja bo ujson nie obsluguje liczb
     val numbers = list.map(_.num)
 
     val average = numbers.sum/numbers.length;
     val tobepower = numbers.map(_ - average)
-    // print(tobepower)
     val power = tobepower.map(x => x*x )
-    // print(power)
     val fin = power.sum/(numbers.length-1)
     Some(fin)
   }
   }
 
 
+
+
+
+
+
+
+
+
+
+
+// zad 5
+
+case class KeyValue[K, V](key: K, value: V)
+
+trait MapRed[In, Key, Value, Reduced] 
+{ 
+  def mapper(input: In): Seq[KeyValue[Key, Value]]
+  def reducer(key: Key, values: Seq[Value]) : KeyValue[Key, Reduced] 
+} 
+
+
+class NumberCounter extends MapRed[List[Int], Int, Int, Int] 
+{ 
+  override def mapper(input: List[Int]): Seq[KeyValue[Int, Int]] = { 
+    input.map(x => KeyValue(x, 1)) 
+  }
+
+  override def reducer(key: Int, values: Seq[Int]): KeyValue[Int, Int] = {
+     KeyValue(key, values.sum) 
+  } 
+} 
+     
+
+
+
+def mapReduce(list: Seq[ujson.Value]): Map[Int, Int] = {
+  val counter = new NumberCounter()
+  // //json na liste int 
+  // val numbers = list.map(_.num.toInt).toList
+
+  // //tworzymy kucze
+  // val mapped = counter.mapper(numbers)
+
+  // //grupujemy wedlug kluczka
+  // val grouped = mapped.groupBy(_.key)
+
+  val tmp =counter.mapper(list.map(_.num.toInt).toList).groupBy(_.key)
+
+
+  val reduced: Map[Int, Int] = {
+    tmp.map { 
+      case (key, valu) =>
+      val data = valu.map(_.value)
+      val result = counter.reducer(key, data)
+      (key, result.value)
+    }
+  }
+
+  reduced
+}
+
+
+@cask.postJson("/dic-number")
+def jsonDicNumber(list: Seq[ujson.Value]) = {
+ 
+    ujson.Obj.from(
+      mapReduce(list).map {
+        case (key, value) => 
+        key.toString -> ujson.Num(value)
+    }
+)
+
+}
 
 
 initialize()
