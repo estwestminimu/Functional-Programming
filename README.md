@@ -151,7 +151,7 @@ Kod: [Link do zadania](./example/src/main/scala/Example.scala)
 **Zadanie 6**
 
 
-**Zadanie 1** Docker
+
 
 :white_check_mark: 3.0 Zaimplementuj funkcję isSorted, która sprawdza czy dana funkcja jest posortowana zgodnie z podaną funkcją porównawczą 
 [Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/df377b8c4126b218e22b339cc1afd90537c31c25)
@@ -168,6 +168,7 @@ https://github.com/user-attachments/assets/8f3b310b-18eb-43ac-8d13-33e22db55925
 
 
 :x: 4.5 Zaimplementuj funkcję append, która doda element we wskazanym miejscu w liście 
+
 :x: 5.0 Zaimplementuj funkcję, która policzy kwadrat liczb z dwóch list (po wierszach) za pomocą funkcji map oraz funkcji anonimowej
 
 
