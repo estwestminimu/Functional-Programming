@@ -154,13 +154,13 @@ Kod: [Link do zadania](./example/src/main/scala/Example.scala)
 **Zadanie 1** Docker
 
 :white_check_mark: 3.0 Zaimplementuj funkcję isSorted, która sprawdza czy dana funkcja jest posortowana zgodnie z podaną funkcją porównawczą 
-[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/f6d8c5b75bf675ade16022c2401cc700050c9e72)
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/df377b8c4126b218e22b339cc1afd90537c31c25)
 
 https://github.com/user-attachments/assets/63a15f22-e0ac-48a9-8bd4-331cfa22c297
 
 :white_check_mark: 3.5 Zaimplementuj funkcję, która zsumuje liczby po wierszach z trzech list na wejściu; wykorzystaj funkcję sprowadzi funkcję z trzema argumentami, do funkcji z dwoma
 
-[Link do commita 2](https://github.com/estwestminimu/Functional-Programming/commit/f6d8c5b75bf675ade16022c2401cc700050c9e72)
+[Link do commita 2](https://github.com/estwestminimu/Functional-Programming/commit/df377b8c4126b218e22b339cc1afd90537c31c25)
 
 https://github.com/user-attachments/assets/8f3b310b-18eb-43ac-8d13-33e22db55925
 
