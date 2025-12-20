@@ -1,11 +1,18 @@
-FROM sbtscala/scala-sbt:eclipse-temurin-alpine-24.0.1_9_1.11.7_3.7.3
+FROM haskell:9.6-slim
 
-EXPOSE 8080
+RUN apt-get update && apt-get install -y \
+    zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
 COPY . .
 
-#RUN sbt update
+ RUN cabal update
 
-CMD ["sbt", "example/run"]
+ RUN cabal install --lib scotty aeson
+
+
+EXPOSE 3000
+
+CMD ["cabal", "run", "API"]
