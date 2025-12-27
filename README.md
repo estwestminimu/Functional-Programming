@@ -182,12 +182,19 @@ Kod: [Link do zadania 1](./app/Main.hs )
 **Zadanie 7 Maszyna stanów**
 
 Należy zaimplementować w Haskellu endpointy, które:
+
 :white_check_mark: 3.0 zwróci wartość między 0, a maxvalue of Int włącznie
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/9b6f35e492c276c03ec9538dde2e51a610b2e767)
+
 
 :white_check_mark: 3.5 zwróci wartość między 0, a 1 (Double) z wyłączeniem 1
+[Link do commita 2](https://github.com/estwestminimu/Functional-Programming/commit/9b6f35e492c276c03ec9538dde2e51a610b2e767)
+
 
 :white_check_mark: 4.0 zwróci pary (Int, Double), (Double, Int) oraz krotki (Double,
 Double, Double) wykorzystując funkcje z ocen 3.0 oraz 3.5
+[Link do commita 3](https://github.com/estwestminimu/Functional-Programming/commit/9b6f35e492c276c03ec9538dde2e51a610b2e767)
+
 
 :x: 4.5 zwróci wartość jak w funkcji 3.5, ale wykorzysta map
 
