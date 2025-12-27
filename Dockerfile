@@ -10,7 +10,7 @@ COPY . .
 
  RUN cabal update
 
- RUN cabal install --lib scotty aeson
+ RUN cabal install --lib scotty aeson mtl
 
 
 EXPOSE 3000

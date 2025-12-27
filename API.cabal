@@ -70,7 +70,7 @@ executable API
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.18.3.0, scotty, aeson
+    build-depends:    base ^>=4.18.3.0, scotty, aeson, mtl
 
     -- Directories containing source files.
     hs-source-dirs:   app

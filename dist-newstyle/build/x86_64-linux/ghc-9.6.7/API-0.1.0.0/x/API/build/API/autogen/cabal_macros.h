@@ -30,6 +30,16 @@
   (major1) == 4 && (major2) <  18 || \
   (major1) == 4 && (major2) == 18 && (minor) <= 3)
 #endif /* MIN_VERSION_base */
+/* package mtl-2.3.1 */
+#ifndef VERSION_mtl
+#define VERSION_mtl "2.3.1"
+#endif /* VERSION_mtl */
+#ifndef MIN_VERSION_mtl
+#define MIN_VERSION_mtl(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 1)
+#endif /* MIN_VERSION_mtl */
 /* package scotty-0.22 */
 #ifndef VERSION_scotty
 #define VERSION_scotty "0.22"
