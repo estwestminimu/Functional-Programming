@@ -78,7 +78,7 @@ nextRand = do
   let a= 1103515245
       c= 12345
       m= 2147483648       
-      seed' = (a* seed+ c)    -- Nie dodaje modulo bo overflow w haskellu dziala tak samo dla int`mod` m ale wlica max
+      seed' = abs(a* seed+ c)    -- Nie dodaje modulo bo overflow w haskellu dziala tak samo dla int`mod` m ale wlica max
   Monad.put seed'
   return seed'
 
@@ -91,7 +91,7 @@ nextRandDouble = do
   let a= 1103515245
       c= 12345
       m= 2147483648       
-      seed' = (a* seed+ c)  `mod` m
+      seed' = abs((a* seed+ c)  `mod` m)
   Monad.put seed'
   return (fromIntegral seed'/fromIntegral m)
 

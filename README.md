@@ -204,3 +204,31 @@ https://github.com/user-attachments/assets/7792eeef-02ab-4cab-bf71-3c2e072f77f7
 
 
 Kod: [Link do zadania 1](./app/Main.hs )
+
+
+
+
+
+***
+**Zadanie 8 Monoidy, monady, funktory**
+
+Należy zaimplementować w Haskellu endpointy, które:
+
+3.0 wykorzysta metodę map fuktora do wykonania funkcji dodawania lub
+odejmowania na dwóch wartość przyjętych na wejściu
+
+3.5 zwróci wartość konkatenacji trzech list za pomocą monoidy
+
+4.0 zwróci wartość sumy listy liczb lub zwróci nil; zaimplementuj
+wykorzystując monady
+
+4.5 zwróci zadanie z zestawy 6 na ocenę 4.0 i wykorzysta metodę
+combine oraz join
+
+5.0 zwróci dla listy minimum 3 elementów typu int mapę: liczba
+elementów, suma,  wartość minimalna, wartość maksymalna; wykorzysta do
+tego monadę oraz metodę foldMap
+
+
+
+Kod: [Link do zadania 1](./app/Main.hs )
