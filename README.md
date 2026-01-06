@@ -214,21 +214,24 @@ Kod: [Link do zadania 1](./app/Main.hs )
 
 Należy zaimplementować w Haskellu endpointy, które:
 
-3.0 wykorzysta metodę map fuktora do wykonania funkcji dodawania lub
+:white_check_mark: 3.0 wykorzysta metodę map fuktora do wykonania funkcji dodawania lub
 odejmowania na dwóch wartość przyjętych na wejściu
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/0b71f964f8a980e0bac5b7155b8ce00ccee34ddf)
 
-3.5 zwróci wartość konkatenacji trzech list za pomocą monoidy
+:white_check_mark: 3.5 zwróci wartość konkatenacji trzech list za pomocą monoidy
+[Link do commita 2](https://github.com/estwestminimu/Functional-Programming/commit/0b71f964f8a980e0bac5b7155b8ce00ccee34ddf)
 
-4.0 zwróci wartość sumy listy liczb lub zwróci nil; zaimplementuj
+
+:x: 4.0 zwróci wartość sumy listy liczb lub zwróci nil; zaimplementuj
 wykorzystując monady
 
-4.5 zwróci zadanie z zestawy 6 na ocenę 4.0 i wykorzysta metodę
+:x: 4.5 zwróci zadanie z zestawy 6 na ocenę 4.0 i wykorzysta metodę
 combine oraz join
 
-5.0 zwróci dla listy minimum 3 elementów typu int mapę: liczba
+:x: 5.0 zwróci dla listy minimum 3 elementów typu int mapę: liczba
 elementów, suma,  wartość minimalna, wartość maksymalna; wykorzysta do
 tego monadę oraz metodę foldMap
 
-
+https://github.com/user-attachments/assets/6935e805-2dae-44fe-9061-5c83f8254c06
 
 Kod: [Link do zadania 1](./app/Main.hs )
