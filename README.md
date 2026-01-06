@@ -235,3 +235,39 @@ tego monadę oraz metodę foldMap
 https://github.com/user-attachments/assets/6935e805-2dae-44fe-9061-5c83f8254c06
 
 Kod: [Link do zadania 1](./app/Main.hs )
+
+
+
+
+
+***
+**Zadanie 9 Wątki**
+
+Należy zaimplementowaś w j. JavaScript endpointy, które:
+
+:white_check_mark: 3.0 zwróci wartość binarną czy podana na wejściu liczba jest liczbą
+pierwszą; wykorzysta Promise
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/6e792fc47fcbf3951a0214c5bf4cc43214e4aa07)
+
+
+:white_check_mark: 3.5  zwróci posortowaną listę; wykorzysta Promise
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/6e792fc47fcbf3951a0214c5bf4cc43214e4aa07)
+
+:white_check_mark: 4.0 zwróci wynik funkcji z zad. 5 na 4.0 (mapreduce); wykorzysta
+worker_threads
+[Link do commita 1](https://github.com/estwestminimu/Functional-Programming/commit/6e792fc47fcbf3951a0214c5bf4cc43214e4aa07)
+
+ :x: 4.5  zwróci wynik bagOfWords dla danego tekstu na wejściu; stworzy
+pulę workterów
+
+ :x: 5.0 zwróci wynik funkcji z zad. 5 na 4.5; wykorzysta Promise.all oraz
+funkcję map
+
+
+
+
+
+
+https://github.com/user-attachments/assets/f0ace48f-f9f0-43d1-8f19-486a16df255c
+
+Kod: [Link do zadania 1](./app.js )
