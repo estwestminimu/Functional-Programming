@@ -49,11 +49,8 @@ function Sort(list) {
         }
 
         const result = list.toSorted((a, b) => a - b)
-
         // console.log(result)
         resolve({ status: 'success', message: result })
-
-
 
     })
 
@@ -64,13 +61,13 @@ function Sort(list) {
 function runDictionary(list) {
     return new Promise((resolve, reject) => {
         const worker = new Worker(
-            path.join(__dirname, 'worker.js'), 
-            { workerData: list}
+            path.join(__dirname, 'worker.js'),
+            { workerData: list }
         );
 
-    worker.on('message', resolve);
-    worker.on('error', reject);
-  });
+        worker.on('message', resolve);
+        worker.on('error', reject);
+    });
 }
 
 
@@ -85,14 +82,9 @@ app.post('/prime', (req, res) => {
         .then(resolved)
         .catch(rejected);
 
-
-
-
     function resolved(response) {
         res.status(200).json(response)
     }
-
-
     function rejected(response) {
         res.status(400).json(response)
     }
@@ -107,13 +99,9 @@ app.post('/sort', (req, res) => {
         .then(resolved)
         .catch(rejected)
 
-
-
     function resolved(response) {
         res.status(200).json(response)
     }
-
-
     function rejected(response) {
         res.status(400).json(response)
     }
@@ -127,16 +115,16 @@ app.post('/sort', (req, res) => {
 
 app.post('/dictionary', async (req, res) => {
     try {
-    const { list } = req.body;
+        const { list } = req.body;
 
-    const result = await runDictionary(list);
+        const result = await runDictionary(list);
 
-    res.status(200).json({ status: 'success', message: result });
+        res.status(200).json({ status: 'success', message: result });
 
-  } 
-  catch (err) {
-    res.status(400).json({ status: 'error', message: "Dane sa niepoprawne" });
-  }
+    }
+    catch (err) {
+        res.status(400).json({ status: 'error', message: "Dane sa niepoprawne" });
+    }
 
 });
 

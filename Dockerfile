@@ -1,18 +1,12 @@
-FROM haskell:9.6-slim
-
-RUN apt-get update && apt-get install -y \
-    zlib1g-dev \
-    && rm -rf /var/lib/apt/lists/*
+FROM node:20-bullseye
 
 WORKDIR /app
 
 COPY . .
 
- RUN cabal update
-
- RUN cabal install --lib scotty aeson mtl
+RUN npm install
 
 
 EXPOSE 3000
 
-CMD ["cabal", "run", "API"]
+CMD ["npm", "start"]
