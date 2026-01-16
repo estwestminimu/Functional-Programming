@@ -271,3 +271,28 @@ funkcję map
 https://github.com/user-attachments/assets/f0ace48f-f9f0-43d1-8f19-486a16df255c
 
 Kod: [Link do zadania 1](./app.js )
+
+***
+# **Zadanie 10 Funkcje w chmurze**
+
+Przygotuj 3 wybrane funkcje w JS oraz udostępnij w ramach usługi Azure Functions
+
+**Zapytania:**
+```c
+https://js-funkcyjne.azurewebsites.net/api/
+```
+[Link do repozytorium przy użyciu którego skonfigurowałem Azure Functions](https://github.com/estwestminimu/Azure-Functions)
+
+
+
+Przygotuj 3 wybrane funkcje w Haskellu w ramach Azure App Services. Wykorzystaj obraz dockerowy.
+
+**Zapytania:**
+```c
+https://haskell-fun-efd2bea2ayegfnfg.polandcentral-01.azurewebsites.net/
+```
+[Link do repozytorium przy użyciu którego skonfigurowałem Azure App Services](https://github.com/estwestminimu/Azure-App-Services)
+
+
+
+https://github.com/user-attachments/assets/181b04ba-eefd-4880-a5a6-42e5b2cb9cdb
